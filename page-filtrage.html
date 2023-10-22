@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar fixed-top top-0 z-5 navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">hello</a>
+             <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle Navbar"
+             >
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <div class="collapse navbar-collapse mt-4 rounded" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav col-6 px-4 px-lg-0 justify-content-between">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white text-capitalize fw-bold">accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="destination.html" class="nav-link text-white text-capitalize fw-bold">nos-destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="page-filtrage.html" class="nav-link text-white text-capitalize fw-bold">info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link text-white text-capitalize fw-bold">contactez-nous</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <footer class="bg-info py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 py-3 text-center">
+              <p>Copyright © 2023 <a href="#">Adil Nmili</a> Company. All rights reserved. 
+              <br>Design: <a href="https://ofppt.com" target="_blank" title="Ofppt Education">OFPPT</a></p>
+            </div>
+          </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-info', 'shadow');
+          } else {
+            nav.classList.remove('bg-info', 'shadow');
+          }
+        });
+      </script>
+</body>
+</html>

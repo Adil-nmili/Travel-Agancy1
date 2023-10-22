@@ -1,0 +1,53 @@
+.carousel-item img {
+    filter: brightness(.5);
+}
+.fsize {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.backDrop {
+    backdrop-filter: blur(2px);
+    border-radius: 20px;  
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+.backDrop1 {
+    border-radius: 20px;  
+    background-color:rgba(255, 255, 255, .2) ;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.about-main-content {
+    height: 110vh;
+    background-image: url(../assets/pexels-pixabay-38238.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+.img-bg {
+    height: 100vh;
+    background-image: url(../assets/pexels-david-bartus-586687.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+ }
+ .opacity {
+     background-color: rgb(0, 0, 0);
+    opacity: .5;
+ }
+
+.out-marg {
+    margin-top: -80px;
+    box-shadow: 0 0 12px #eee;
+}
+.imt {
+    max-height: 173px;
+    object-fit: cover;
+}
+.text-cont{
+    backdrop-filter: blur(3px);
+}
+.card-position {
+    top: -20px;
+}

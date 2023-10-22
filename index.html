@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <title>agent de voyage</title>
+</head>
+<body class="bg-black">
+    <nav class="navbar fixed-top top-0 z-5 navbar-expand-lg navbar-dark p-md-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Logo</a>
+             <button
+                type="button"
+                class="navbar-toggler"
+                data-bs-target="#navbarNav"
+                data-bs-toggle="collapse"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle Navbar"
+             >
+                <span class="navbar-toggler-icon"></span>
+             </button>
+
+             <div class="collapse navbar-collapse mt-4 rounded" id="navbarNav">
+                <div class="mx-auto"></div>
+                <ul class="navbar-nav col-6 px-4 px-lg-0 justify-content-between">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text-white text-capitalize fw-bold">accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="destination.html" class="nav-link text-white text-capitalize fw-bold">nos-destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="page-filtrage.html" class="nav-link text-white text-capitalize fw-bold">info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link text-white text-capitalize fw-bold">contactez-nous</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </nav>
+    <div id="topdestinationsImages" class="carousel slide vh-100 overflow-hidden carousel-fade" data-bs-ride="carousel" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#topdestinationsImages" data-bs-slide-to="0" class="bg-black active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#topdestinationsImages" data-bs-slide-to="1" class="bg-black" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#topdestinationsImages" data-bs-slide-to="2" class="bg-black" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#topdestinationsImages" data-bs-slide-to="3" class="bg-black" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#topdestinationsImages" data-bs-slide-to="4" class="bg-black" aria-label="Slide 5"></button>
+          </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100" data-bs-interval="5000">
+            <img src="assets/pexels-zakaria-boumliha-2827374.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Marrakech">
+            <div class="carousel-caption d-md-flex position-absolute top-50 start-50 translate-middle  w-75  backDrop justify-content-center flex-column align-items-center">
+              <h5 class="mb-1 text-uppercase text-white">Jetez un œil au magnifique pays de:</h5>
+              <h1 class="mb-5 text-white fw-bolder fsize">Marrakech</h1>
+              <button type="button" class="btn btn-outline-primary px-5 text-uppercase">Va là-bas</button>
+              <div class="row d-none d-lg-flex bg-white w-75 rounded-5 mt-3">
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-user text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Population:</span><br>24.154 M</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-globe text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Territory:</span><br>45.21 KM<em>2</em></h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-home text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">AVG Price:</span><br>$12.542</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 px-3 d-flex align-items-center">
+                  <button type="button" class="btn btn-primary">
+                    <a href="about.html" class="text-white text-decoration-none" >Explore More</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="5000">
+            <img src="assets/country-01.jpg" class="d-block w-100 h-100 object-fit-cover" alt="">
+            <div class="carousel-caption d-md-flex position-absolute top-50 start-50 translate-middle  w-75  backDrop justify-content-center flex-column align-items-center">
+              <h5 class="mb-1 text-uppercase text-white">Jetez un œil au magnifique pays de:</h5>
+              <h1 class="mb-5 text-white fw-bolder fsize">France</h1>
+              <button type="button" class="btn btn-outline-primary px-5 text-uppercase">Va là-bas</button>
+              <div class="row d-none d-lg-flex bg-white w-75 rounded-5 mt-3">
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-user text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Population:</span><br>41.48 M</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-globe text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Territory:</span><br>275.400 KM<em>2</em></h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-home text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">AVG Price:</span><br>$946.000</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 px-3 d-flex align-items-center">
+                  <button type="button" class="btn btn-primary">
+                    <a href="about.html" class="text-white text-decoration-none" >Explore More</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100 align-items-start" data-bs-interval="5000">
+            <img src="assets/pexels-flo-maderebner-238622.jpg" class="d-block w-100 h-100  object-fit-cover" alt="">
+            <div class="carousel-caption d-md-flex position-absolute top-50 start-50 translate-middle  h-40 w-75 backDrop justify-content-center flex-column align-items-center">
+              <h5 class="mb-1 text-uppercase text-white">Jetez un œil au magnifique pays de:</h5>
+              <h1 class="mb-5 text-white fw-bolder fsize">Switzerland</h1>
+              <button type="button" class="btn btn-outline-primary px-5 text-uppercase">Va là-bas</button>
+              <div class="row d-none d-lg-flex bg-white w-75 rounded-5 mt-3">
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-user text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Population:</span><br>20.48 M</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-globe text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Territory:</span><br>225.700 KM<em>2</em></h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-home text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">AVG Price:</span><br>$356.000</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 px-3 d-flex align-items-center">
+                  <button type="button" class="btn btn-primary">
+                    <a href="about.html" class="text-white text-decoration-none" >Explore More</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="5000">
+            <img src="assets/pexels-te-lensfix-1371360.jpg" class="d-block w-100 h-100 object-fit-cover" alt="">
+            <div class="carousel-caption d-md-flex position-absolute top-50 start-50 translate-middle  h-40 w-75 backDrop justify-content-center flex-column align-items-center">
+              <h5 class="mb-1 text-uppercase text-white">Jetez un œil au magnifique pays de:</h5>
+              <h1 class="mb-5 text-white fw-bolder fsize">Thailand</h1>
+              <button type="button" class="btn btn-outline-primary px-5 text-uppercase">Va là-bas</button>
+              <div class="row d-none d-lg-flex bg-white w-75 rounded-5 mt-3">
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-user text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Population:</span><br>25.48 M</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-globe text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Territory:</span><br>475.400 KM<em>2</em></h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-home text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">AVG Price:</span><br>$321.000</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 px-3 d-flex align-items-center">
+                  <button type="button" class="btn btn-primary">
+                    <a href="about.html" class="text-white text-decoration-none" >Explore More</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item h-100" data-bs-interval="5000">
+            <img src="assets/pexels-max-ravier-2253821.jpg" class="d-block w-100 h-100 object-fit-cover" alt="">
+            <div class="carousel-caption d-md-flex position-absolute top-50 start-50 translate-middle  h-40 w-75 backDrop justify-content-center flex-column align-items-center">
+              <h5 class="mb-1 text-uppercase text-white">Jetez un œil au magnifique pays de:</h5>
+              <h1 class="mb-5 text-white fw-bolder fsize">Caribbean</h1>
+              <button type="button" class="btn btn-outline-primary px-5 text-uppercase">Va là-bas</button>
+              <div class="row d-none d-lg-flex bg-white w-75 rounded-5 mt-3">
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-user text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Population:</span><br>44.10 M</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-globe text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">Territory:</span><br>421.620 KM<em>2</em></h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6">
+                  <i class="fa fa-home text-secondary"></i>
+                  <h4 class="fs-5 text-black"><span class="text-primary">AVG Price:</span><br>$412.000</h4>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-6 px-3 d-flex align-items-center">
+                  <button type="button" class="btn btn-primary">
+                    <a href="about.html" class="text-white text-decoration-none" >Explore More</a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#topdestinationsImages" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#topdestinationsImages" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container my-5 py-4">
+      <div class="row d-flex align-items-center">
+        <div class="row col-lg-8 col-12 d-flex d-lg-block justify-content-center">
+          <div class="col-lg-5 col-10 d-flex justify-content-center">
+            <h1 class="fw-bold text-capitalize text-center w-100 text-secondry py-2">visitez noter pays maintenant</h1>
+          </div>
+        
+          <div class="row">
+            <div class="col-lg-7 col-sm-8">
+              <p class="text-capitalize text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident odit nobis recusandae.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card mb-3 bg-black my-3 py-3 border border-start-0 border-end-0" style="max-width: 580px; max-height: 350px;">
+              <div class=" row g-0 h-100">
+                <div class="col-md-4 col-12">
+                  <img src="assets/pexels-esteban-santiago-gonzalez-12314825 (1).jpg" class="img-fluid rounded-start object-fit-cover h-100" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body pt-0 d-flex flex-column align-items-center align-items-md-start h-100" >
+                    <h2 class="card-title text-uppercase text-secondry pt-0">ile de canarie</h2>
+                    <h5 class="text-capitalize text-white">carribian</h5>
+                    <p class="card-text fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis ab blanditiis impedit possimus corrupti assumenda magni mollitia est ipsa?</p>
+                    <div class="row">
+                      <div class="container py-1 d-flex justify-content-between">
+                        <div class="col d-flex align-items-center">
+                          <p class="text-white h-50">8.66 mil personnes</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">32.290 km²</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">$100.200</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div>
+                        <a href="#" class="text-capitalize text-decoration-none text-info">besoi de direction ? -></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card mb-3 bg-black my-3 py-3 border border-start-0 border-end-0" style="max-width: 580px; max-height: 350;">
+              <div class=" row g-0 h-100">
+                <div class="col-md-4 col-12">
+                  <img src="assets/pexels-francesco-ungaro-2325446.jpg" class="img-fluid rounded-start object-fit-cover h-100" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body pt-0 d-flex flex-column align-items-center align-items-md-start h-100" >
+                    <h2 class="card-title text-uppercase text-secondry pt-0">turquie</h2>
+                    <h5 class="text-capitalize text-white">europe</h5>
+                    <p class="card-text fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis ab blanditiis impedit possimus corrupti assumenda magni mollitia est ipsa?</p>
+                    <div class="row">
+                      <div class="container py-1 d-flex justify-content-between">
+                        <div class="col d-flex align-items-center">
+                          <p class="text-white h-50">48.66 mil personnes</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">41.290 km²</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">$900.200</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div>
+                        <a href="#" class="text-capitalize text-decoration-none text-info">besoi de direction ? -></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card mb-3 bg-black my-3 py-3 border border-start-0 border-end-0" style="max-width: 580px; max-height: 350;">
+              <div class=" row g-0 h-100">
+                <div class="col-md-4 col-12">
+                  <img src="assets/pexels-gül-işık-2218344.jpg" class="img-fluid rounded-start object-fit-cover h-100" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body pt-0 d-flex flex-column align-items-center align-items-md-start h-100" >
+                    <h2 class="card-title text-uppercase text-secondry pt-0">Switzerland</h2>
+                    <h5 class="text-capitalize text-white">europe</h5>
+                    <p class="card-text fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis ab blanditiis impedit possimus corrupti assumenda magni mollitia est ipsa?</p>
+                    <div class="row">
+                      <div class="container py-1 d-flex justify-content-between">
+                        <div class="col d-flex align-items-center">
+                          <p class="text-white h-50">8.66 mil personnes</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">41.290 km²</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">$1.100.200</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div>
+                        <a href="#" class="text-capitalize text-decoration-none text-info">besoi de direction ? -></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card mb-3 bg-black my-3 py-3 border border-start-0 border-end-0" style="max-width: 580px; max-height: 350;">
+              <div class=" row g-0 h-100">
+                <div class="col-md-4 col-12">
+                  <img src="assets/pexels-cátia-matos-984869.jpg" class="img-fluid rounded-start object-fit-cover h-100" alt="">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body pt-0 d-flex flex-column align-items-center align-items-md-start h-100" >
+                    <h2 class="card-title text-uppercase text-secondry pt-0">azribijan</h2>
+                    <h5 class="text-capitalize text-white">europe</h5>
+                    <p class="card-text fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis ab blanditiis impedit possimus corrupti assumenda magni mollitia est ipsa?</p>
+                    <div class="row">
+                      <div class="container py-1 d-flex justify-content-between">
+                        <div class="col d-flex align-items-center">
+                          <p class="text-white h-50">18.66 mil personnes</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">62.200 km²</p>
+                        </div>
+                        <div class="col d-flex align-items-center justify-content-center">
+                          <p class="text-white h-50">$700.200</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div>
+                        <a href="#" class="text-capitalize text-decoration-none text-info">besoi de direction ? -></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-8 h-75">
+          <div class="cart col-8 col-lg-12" style="height: 800px; min-height: 300px;">
+            <img src="assets/pexels-michael-block-3225529.jpg" class="img-fluid rounded-4 h-100 object-fit-cover" alt="">
+          </div>
+        </div>
+     </div>
+     <div class="my-5">
+      <ul class="pagination d-flex justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link bg-dark text-info border-info">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link bg-dark text-info border-info" href="#">1</a></li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link text-info border-info" href="#">2</a>
+        </li>
+        <li class="page-item"><a class="page-link bg-dark text-info border-info" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link bg-dark text-info border-info" href="#">Next</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+
+
+    <footer class="bg-info py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 py-3 text-center">
+            <p>Copyright © 2023 <a href="#">Adil Nmili</a> Company. All rights reserved. 
+            <br>Design: <a href="https://ofppt.com" target="_blank" title="Ofppt Education">OFPPT</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script>
+        var nav = document.querySelector('nav');
+        window.addEventListener('scroll', function () {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-info', 'shadow');
+          } else {
+            nav.classList.remove('bg-info', 'shadow');
+          }
+        });
+      </script>
+
+</body>
+</html>
